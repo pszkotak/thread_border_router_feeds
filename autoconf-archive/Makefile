@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=autoconf-archive
-PKG_VERSION:=2016-09-16
+PKG_VERSION:=2019-03-02
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=git://git.sv.gnu.org/autoconf-archive.git
+PKG_SOURCE_URL:=https://github.com/pszkotak/autoconf-archive.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=d3d6bb4a4fb7df1508d1470d908dbd81b225a962
+PKG_SOURCE_VERSION:=cdff6b790d08b74ae42f75b073faffe0ed2e8bdd
 PKG_LICENSE:=GNU Free Documentation License 1.3
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
